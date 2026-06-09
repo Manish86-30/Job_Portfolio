@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "job_portfolio/wsgi.py",
+      "src": "port_project/wsgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "job_portfolio/wsgi.py"
+      "dest": "port_project/wsgi.py"
     }
   ]
 }
